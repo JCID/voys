@@ -1,0 +1,33 @@
+{
+    "name": "jcid/voys-api-wrapper",
+    "description": "An Voys API wrapper for the click to dial flow.",
+    "keywords": [
+        "voys",
+        "voipgrid",
+        "clicktodial"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey Cafferata",
+            "email": "jeffrey@jcid.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "beberlei/assert": "^2.7",
+        "guzzlehttp/guzzle": "^6.2",
+        "webmozart/json": "^1.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.2",
+        "phpro/grumphp": "^0.11.4",
+        "symfony/var-dumper": "^3.2",
+        "sensiolabs/security-checker": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jcid\\Voys\\": "src/"
+        }
+    }
+}
