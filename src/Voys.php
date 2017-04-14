@@ -45,7 +45,7 @@ final class Voys
     {
         $this->validatePhonenumbers($toPhonenumer, $fromPhonenumer);
 
-        $response     = $this->client->request(
+        $response = $this->client->request(
             'POST',
             self::API_URL,
             [
@@ -70,7 +70,7 @@ final class Voys
     {
         $this->validateCallId($callid);
 
-        $response     = $this->client->request(
+        $response = $this->client->request(
             'GET',
             sprintf('%s%s/', self::API_URL, $callid),
             [
@@ -95,7 +95,7 @@ final class Voys
         // Password validation
         Assertion::string($password, 'Password: Value "%s" expected to be string, type %s given.');
 
-        $this->login    = $login;
+        $this->login = $login;
         $this->password = $password;
     }
 

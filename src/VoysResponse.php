@@ -62,19 +62,19 @@ final class VoysResponse
      */
     public function __construct(Response $response)
     {
-        $jsonDecoder    = new JsonDecoder();
+        $jsonDecoder = new JsonDecoder();
         $responseObject = $jsonDecoder->decode($response->getBody()->getContents());
 
-        $this->a_cli          = $responseObject->a_cli;
-        $this->a_number       = $responseObject->a_number;
-        $this->auto_answer    = $responseObject->auto_answer;
-        $this->b_cli          = $responseObject->b_cli;
-        $this->b_number       = $responseObject->b_number;
-        $this->callid         = $responseObject->callid;
-        $this->created        = $responseObject->created;
+        $this->a_cli = $responseObject->a_cli;
+        $this->a_number = $responseObject->a_number;
+        $this->auto_answer = $responseObject->auto_answer;
+        $this->b_cli = $responseObject->b_cli;
+        $this->b_number = $responseObject->b_number;
+        $this->callid = $responseObject->callid;
+        $this->created = $responseObject->created;
         $this->originating_ip = $responseObject->originating_ip;
-        $this->resource_uri   = $responseObject->resource_uri;
-        $this->status         = $responseObject->status;
+        $this->resource_uri = $responseObject->resource_uri;
+        $this->status = $responseObject->status;
     }
 
     /**

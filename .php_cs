@@ -13,7 +13,7 @@ return PhpCsFixer\Config::create()
                                 ],
                                 'binary_operator_spaces'              => [
                                     'align_double_arrow' => true,
-                                    'align_equals'       => true,
+                                    'align_equals'       => false,
                                 ],
                                 'class_keyword_remove'                => false,
                                 'combine_consecutive_unsets'          => true,
