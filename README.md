@@ -1,10 +1,10 @@
-![JCID](docs/images/jcid.png "JCID") ♥ ![Voys](docs/images/voys.png "Voys")
+[![JCID](docs/images/jcid.png "JCID")](https://www.jcid.nl) ♥ [![Voys](docs/images/voys.png "Voys")](https://www.voys.nl)
 
-[![Scrutinizer build status](https://img.shields.io/scrutinizer/build/g/jcid/voys-api-wrapper.svg)](https://scrutinizer-ci.com/g/JCID/voys-api-wrapper/build-status/master)
-[![Scrutinizer quality score](https://img.shields.io/scrutinizer/g/jcid/voys-api-wrapper.svg?style=flat-square)](https://scrutinizer-ci.com/g/jcid/voys-api-wrapper)
+[![Scrutinizer build status](https://img.shields.io/scrutinizer/build/g/jcid/voys.svg)](https://scrutinizer-ci.com/g/JCID/voys/build-status/master)
+[![Scrutinizer quality score](https://img.shields.io/scrutinizer/g/jcid/voys.svg?style=flat-square)](https://scrutinizer-ci.com/g/jcid/voys)
 [![Software license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist version](https://img.shields.io/packagist/v/jcid/voys-api-wrapper.svg?style=flat-square)](https://packagist.org/packages/jcid/voys-api-wrapper)
-[![Packagist total downloads](https://img.shields.io/packagist/dt/jcid/voys-api-wrapper.svg?style=flat-square)](https://packagist.org/packages/jcid/voys-api-wrapper)
+[![Packagist version](https://img.shields.io/packagist/v/jcid/voys.svg?style=flat-square)](https://packagist.org/packages/jcid/voys)
+[![Packagist total downloads](https://img.shields.io/packagist/dt/jcid/voys.svg?style=flat-square)](https://packagist.org/packages/jcid/voys)
 ![StyleCI](https://styleci.io/repos/88093404/shield?branch=master)
 
 # Voys call API wrapper
@@ -16,7 +16,7 @@ An [Voys](https://www.voys.nl) API wrapper for the click to dial flow.
 Using [Composer](https://getcomposer.org):
 
 ```sh
-composer require jcid/voys-api-wrapper
+composer require jcid/voys
 ```
 
 ## Example usages

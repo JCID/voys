@@ -1,6 +1,6 @@
 {
-    "name": "jcid/voys-api-wrapper",
-    "description": "An Voys API wrapper for the click to dial flow.",
+    "name": "jcid/voys",
+    "description": "An Voys API wrapper for the click and dial flow.",
     "keywords": [
         "voys",
         "voipgrid",
