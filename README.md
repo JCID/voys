@@ -24,7 +24,6 @@ composer require jcid/voys
 Fill in your Voys login credentials, with your e-mail address and password. Fill in the phone number you want to call to go and see will get additional outgoing phone which others in their display. Note, this should be a number of Voys.
 
 ```php
-<?php
 use Jcid\Voys\Voys;
 
 $voys = new Voys('email@example.com', 'password');
@@ -36,7 +35,6 @@ echo $callId;
 Fetch the status of the call by the returned `$callId` after you have started an call.
 
 ```php
-<?php
 use Jcid\Voys\Voys;
 
 $voys = new Voys('email@example.com', 'password');
@@ -49,7 +47,6 @@ echo $callStatus;
 The possible statussen of an call could be one of the following
 
 ```php
-<?php
 use Jcid\Voys\VoysCallStatus;
 
 VoysCallStatus::STATUS_NULL
