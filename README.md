@@ -1,4 +1,4 @@
-[![JCID](docs/images/jcid.png "JCID")](https://www.jcid.nl) ♥ [![Voys](docs/images/voys.png "Voys")](https://www.voys.nl)
+[![JCID](docs/images/jcid.png "JCID")](https://www.jcid.nl) ♥️ [![Voys](docs/images/voys.png "Voys")](https://www.voys.nl)
 
 [![Scrutinizer build status](https://img.shields.io/scrutinizer/build/g/jcid/voys.svg)](https://scrutinizer-ci.com/g/JCID/voys/build-status/master)
 [![Scrutinizer quality score](https://img.shields.io/scrutinizer/g/jcid/voys.svg?style=flat-square)](https://scrutinizer-ci.com/g/jcid/voys)
