@@ -2,7 +2,7 @@
 
 namespace Jcid\Voys;
 
-class VoysCallStatus
+interface VoysCallStatus
 {
     /**
      * dit is soms mogelijk als het gesprek nog opgezet moet worden (de klik&bel API is asynchroon).
