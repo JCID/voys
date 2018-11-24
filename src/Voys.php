@@ -51,8 +51,8 @@ final class Voys
             [
                 RequestOptions::AUTH => [$this->login, $this->password],
                 RequestOptions::JSON => [
-                    VoysOptions::B_NUMBER => $toPhonenumer,
-                    VoysOptions::A_NUMBER => $fromPhonenumer,
+                    VoysOptionsInterface::B_NUMBER => $toPhonenumer,
+                    VoysOptionsInterface::A_NUMBER => $fromPhonenumer,
                 ],
             ]
         );

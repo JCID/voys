@@ -7,7 +7,7 @@ namespace Jcid\Voys;
  *
  * More documentation for each option can be found at https://help.voys.nl/index.php/Klik_en_bel
  */
-interface VoysOptions
+interface VoysOptionsInterface
 {
     /**
      * optional, the number side A sees on the incoming call
