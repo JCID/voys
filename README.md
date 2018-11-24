@@ -6,6 +6,7 @@
 [![Packagist version](https://img.shields.io/packagist/v/jcid/voys.svg?style=flat-square)](https://packagist.org/packages/jcid/voys)
 [![Packagist total downloads](https://img.shields.io/packagist/dt/jcid/voys.svg?style=flat-square)](https://packagist.org/packages/jcid/voys)
 ![StyleCI](https://styleci.io/repos/88093404/shield?branch=master)
+[![SymfonyInsight](https://insight.symfony.com/projects/fab1a89a-91e1-4fd9-941f-7b86d8a98349/mini.svg)](https://insight.symfony.com/projects/fab1a89a-91e1-4fd9-941f-7b86d8a98349)
 
 # Voys call API wrapper
 
